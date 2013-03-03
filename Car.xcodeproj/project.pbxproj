@@ -18,6 +18,8 @@
 		C4D91C6016E2717300B8E383 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D91C5F16E2717300B8E383 /* Default-568h@2x.png */; };
 		C4D91C6316E2717300B8E383 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D91C6116E2717300B8E383 /* MainStoryboard.storyboard */; };
 		C4D91C6616E2717300B8E383 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D91C6516E2717300B8E383 /* ViewController.m */; };
+		C4D91C6E16E271C100B8E383 /* CarClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D91C6D16E271C100B8E383 /* CarClass.m */; };
+		C4D91C7116E28BD400B8E383 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D91C7016E28BD400B8E383 /* Bird.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		C4D91C6216E2717300B8E383 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C4D91C6416E2717300B8E383 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C4D91C6516E2717300B8E383 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4D91C6C16E271C100B8E383 /* CarClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarClass.h; sourceTree = "<group>"; };
+		C4D91C6D16E271C100B8E383 /* CarClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarClass.m; sourceTree = "<group>"; };
+		C4D91C6F16E28BD400B8E383 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		C4D91C7016E28BD400B8E383 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,10 @@
 				C4D91C6116E2717300B8E383 /* MainStoryboard.storyboard */,
 				C4D91C6416E2717300B8E383 /* ViewController.h */,
 				C4D91C6516E2717300B8E383 /* ViewController.m */,
+				C4D91C6F16E28BD400B8E383 /* Bird.h */,
+				C4D91C7016E28BD400B8E383 /* Bird.m */,
+				C4D91C6C16E271C100B8E383 /* CarClass.h */,
+				C4D91C6D16E271C100B8E383 /* CarClass.m */,
 				C4D91C5016E2717300B8E383 /* Supporting Files */,
 			);
 			path = Car;
@@ -176,6 +186,8 @@
 				C4D91C5616E2717300B8E383 /* main.m in Sources */,
 				C4D91C5A16E2717300B8E383 /* AppDelegate.m in Sources */,
 				C4D91C6616E2717300B8E383 /* ViewController.m in Sources */,
+				C4D91C6E16E271C100B8E383 /* CarClass.m in Sources */,
+				C4D91C7116E28BD400B8E383 /* Bird.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

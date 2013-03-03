@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Bird.h"
+
 
 @interface ViewController ()
 
@@ -17,8 +19,29 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    Bird *penguin = [[Bird alloc] init];
+    
+    NSString *move = [penguin transportationType];
+    NSLog(@"move %@", move);
+    
+    NSString *chirp = @"chirp";
+    NSString *song = @"song";
+    NSString *talk = @"talk";
+    
+    penguin.callTypes = @[chirp, song];
+    
+    NSLog(@"penguin callTypes %@", penguin.callTypes);
+    
+    Bird *parrot = [[Bird alloc] init];
+    parrot.callTypes = @[chirp, talk];
+    
+    NSLog(@"parrot callTypes %@", penguin.callTypes);
+
+    
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {
